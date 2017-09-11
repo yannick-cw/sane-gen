@@ -19,4 +19,6 @@ class FileReaderSpec extends FlatSpec with Matchers with Inspectors with OptionV
   }
 
   it should "read all email domains" in (FileReader.emailDomains should have length 132)
+
+  it should "read all urls" in (FileReader.urls should have length 10000)
 }

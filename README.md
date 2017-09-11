@@ -6,7 +6,7 @@ Sane-gen is a library trying to make it easy to generate common data with `scala
 
 - [x] Names
 - [x] Emails 
-- [ ] URLs
+- [x] URLs
 - [ ] english texts
 - [ ] german texts
 - [ ] passwords

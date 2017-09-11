@@ -4,6 +4,8 @@ import io.github.yannick_cw.emails.EmailGen
 import io.github.yannick_cw.emails.EmailGen.Email
 import io.github.yannick_cw.names.NameGen
 import io.github.yannick_cw.names.NameGen.{FirstName, FullName, LastName}
+import io.github.yannick_cw.urls.UrlGen
+import io.github.yannick_cw.urls.UrlGen.Url
 import org.scalacheck.Gen
 
 trait SaneGen {
@@ -20,6 +22,11 @@ trait SaneGen {
     *  to generate valid email addresses
     */
   val email: Gen[Email] = EmailGen.email
+
+  /**
+    * Generator for urls
+    */
+  val url: Gen[Url] = UrlGen.url
 }
 
 object SaneGen extends SaneGen
