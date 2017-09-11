@@ -12,6 +12,11 @@ Sane-gen is a library trying to make it easy to generate common data with `scala
 - [ ] passwords
 - [ ] usernames
 
+### Additional helper functions
+
+- [ ] mix in own terms
+- [ ] mix in own terms with given frequency
+
 ### Usage
 
 You find all supported generators in `import io.github.yannick_cw.SaneGen`.
