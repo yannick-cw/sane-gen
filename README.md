@@ -1,3 +1,5 @@
+# Currently not maintained anymore
+
 ## Sane-Gen
 
 Sane-gen is a library trying to make it easy to generate common data with `scalachek` generators.
